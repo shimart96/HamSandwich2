@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bolt2.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-hdpi\\bolt2.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_slidedown.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\slidedown.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_slideinleft.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\slideinleft.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotatebtn.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\rotatebtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_button_border.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\button_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bolt.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-xhdpi\\bolt.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bolt2.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-mdpi\\bolt2.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ham_list.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\fragment_ham_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_slideup.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\slideup.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bolt2.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-xxhdpi\\bolt2.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_export.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\export.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bolt.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-mdpi\\bolt.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_rising1.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\rising1.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bolt2.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-xhdpi\\bolt2.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_down_from_top.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\down_from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_rising2.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\rising2.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_zoomout.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\zoomout.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_rising.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\rising.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_search.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bolt.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable\\bolt.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bolt.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-xxhdpi\\bolt.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bolt2.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable\\bolt2.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_call_record.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\call_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_appbarlayout.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\appbarlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bolt.png.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\drawable-hdpi\\bolt.png"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_zoomin.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\zoomin.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\anim_up_from_bottom.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\anim\\up_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\salfe\\AndroidStudioProjects\\HamSandwich\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]

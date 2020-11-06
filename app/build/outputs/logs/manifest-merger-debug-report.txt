@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\384c481b110fe6da039624c0bab7e154\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0f566feefad3abd24c71fefb76ef4910\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1f3b2a0ab93102f90a1522a7376cec51\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\4e66b78da32f865e4cf2fd845c292fb3\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\e1de021ab163aa5f9870b47239f7056e\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\45d9eaecaa82472425d8699a0cb112bb\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\61cb8e03af31a1356ffe91f5a5517ff7\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\4ff8ee041a47f6c0edb0c7da5c0fc990\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7dfa698f353ea92afc22e0a6fa7a5a51\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\5d8340b7281c92e4061554fec0f9e986\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cebb4bdfcaf1e51560d95745f4da672\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\e1d6e9b8578be37b36877329f87d595a\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\cbd604738889b4affd8362f865e9560d\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\f0d5a1fd167346d256c566883bd67116\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\8a950aebf9d3e72529c2d99b7f86a8e2\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\f355b711c49a010fe136cd7778e0b100\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\ecf2f44f9e9e4737b611930c52e03e77\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\17eec8b38264dddf663e1505f86fed45\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\099560f5006b277ddad7fe2e0b3adc0e\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\107a7d3b403fc30fca1c4800a659b3b1\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\83a685c91f6c092d5300c972ce427383\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\8faddf8fec2fcf4eba11297fbe977fa5\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1739fe9d8356205a397d0a1ce0114e59\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\04c0628a2ed170df060b6df4bf1d27c4\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1733931111b2fe011867cf4d624abbf4\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\2546ba93c512bf21e5ef3610eb8c70d1\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\b7b6c90f9a55f1f49a5be78021b4ab98\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\9660cc93346cadf933b0963a2cdad09b\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:4:5-71
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:4:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:8:5-31:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\ecf2f44f9e9e4737b611930c52e03e77\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\ecf2f44f9e9e4737b611930c52e03e77\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:11:9-41
+	android:resizeableActivity
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:13:3-38
+	android:icon
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.s33me.hamsandwich.MainActivity
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.s33me.hamsandwich.SearchActivity
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:23:9-26:20
+	android:label
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:24:13-43
+activity#com.s33me.hamsandwich.ExportCsv
+ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:27:9-30:20
+	android:label
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml:28:13-38
+uses-sdk
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cf21ac48e9186dc01afdd96d9fe30a6\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\384c481b110fe6da039624c0bab7e154\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\384c481b110fe6da039624c0bab7e154\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0f566feefad3abd24c71fefb76ef4910\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0f566feefad3abd24c71fefb76ef4910\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1f3b2a0ab93102f90a1522a7376cec51\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1f3b2a0ab93102f90a1522a7376cec51\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\4e66b78da32f865e4cf2fd845c292fb3\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\4e66b78da32f865e4cf2fd845c292fb3\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\e1de021ab163aa5f9870b47239f7056e\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\e1de021ab163aa5f9870b47239f7056e\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\45d9eaecaa82472425d8699a0cb112bb\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\45d9eaecaa82472425d8699a0cb112bb\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\61cb8e03af31a1356ffe91f5a5517ff7\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\61cb8e03af31a1356ffe91f5a5517ff7\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\4ff8ee041a47f6c0edb0c7da5c0fc990\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\4ff8ee041a47f6c0edb0c7da5c0fc990\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7dfa698f353ea92afc22e0a6fa7a5a51\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7dfa698f353ea92afc22e0a6fa7a5a51\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\5d8340b7281c92e4061554fec0f9e986\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\5d8340b7281c92e4061554fec0f9e986\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cebb4bdfcaf1e51560d95745f4da672\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\7cebb4bdfcaf1e51560d95745f4da672\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\e1d6e9b8578be37b36877329f87d595a\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\e1d6e9b8578be37b36877329f87d595a\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\cbd604738889b4affd8362f865e9560d\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\cbd604738889b4affd8362f865e9560d\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\f0d5a1fd167346d256c566883bd67116\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\f0d5a1fd167346d256c566883bd67116\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\8a950aebf9d3e72529c2d99b7f86a8e2\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\8a950aebf9d3e72529c2d99b7f86a8e2\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\f355b711c49a010fe136cd7778e0b100\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\f355b711c49a010fe136cd7778e0b100\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\0b9593fbb2dcde7397582f8d667e1ce4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\15ec55f9505e5541a7c9072bc9c3f316\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\ecf2f44f9e9e4737b611930c52e03e77\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\ecf2f44f9e9e4737b611930c52e03e77\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\17eec8b38264dddf663e1505f86fed45\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\17eec8b38264dddf663e1505f86fed45\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\099560f5006b277ddad7fe2e0b3adc0e\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\099560f5006b277ddad7fe2e0b3adc0e\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\107a7d3b403fc30fca1c4800a659b3b1\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\107a7d3b403fc30fca1c4800a659b3b1\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\83a685c91f6c092d5300c972ce427383\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\83a685c91f6c092d5300c972ce427383\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\8faddf8fec2fcf4eba11297fbe977fa5\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\8faddf8fec2fcf4eba11297fbe977fa5\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1739fe9d8356205a397d0a1ce0114e59\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1739fe9d8356205a397d0a1ce0114e59\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\04c0628a2ed170df060b6df4bf1d27c4\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\04c0628a2ed170df060b6df4bf1d27c4\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1733931111b2fe011867cf4d624abbf4\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\1733931111b2fe011867cf4d624abbf4\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\2546ba93c512bf21e5ef3610eb8c70d1\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\2546ba93c512bf21e5ef3610eb8c70d1\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\b7b6c90f9a55f1f49a5be78021b4ab98\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\b7b6c90f9a55f1f49a5be78021b4ab98\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\9660cc93346cadf933b0963a2cdad09b\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\mya55\Android\Sdk\platform-tools\caches\transforms-2\files-2.1\9660cc93346cadf933b0963a2cdad09b\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\salfe\AndroidStudioProjects\HamSandwich\app\src\main\AndroidManifest.xml
