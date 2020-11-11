@@ -53,7 +53,18 @@
             android:id="@+id/sendBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@layout/button_border"
-            android:text="Send" />
+            android:background="@drawable/ic_baseline_mail_outline_24"
+           />
+
     </LinearLayout>
+    <TextView
+        android:id="@+id/note1"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:text="File location: /Internal storage/Android/data/com.s33me.hamsandwich/files/Documents/HamSandwich.csv"
+        android:textColor="#00cccc"
+        android:textSize="12sp" />
 </LinearLayout>

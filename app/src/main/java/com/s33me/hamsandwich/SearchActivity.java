@@ -26,8 +26,8 @@ import android.support.v7.widget.Toolbar;
 public class SearchActivity extends BaseMenu {
     //Base Menu extends AppCompatActivity and contains the menu options
     //Common to all activities
-    private Button search;
-    private EditText call, name;
+    private Button search, submit;
+    private EditText call, name, freq;
     private DBManager dbManager;
     private String currentDate;
     private ListView listView;
@@ -43,20 +43,22 @@ public class SearchActivity extends BaseMenu {
     private Context ctx;
     AlertDialog.Builder builder;
     private final static int REQUEST_PERMISSIONS = 20;
+    private boolean editflag = false;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search);
         ctx = this;
         CheckPermissions cp = new CheckPermissions(ctx, SearchActivity.this);
         cp.CheckAll(ctx);
-
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        currentDate = sdf.format(new Date());
         search = (Button) findViewById(R.id.searchBtn);
+        submit = (Button) findViewById(R.id.submitBtn);
         call = (EditText) findViewById(R.id.call);
         name = (EditText) findViewById(R.id.name);
-
+        freq = (EditText) findViewById(R.id.freq);
         search.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -66,9 +68,7 @@ public class SearchActivity extends BaseMenu {
                 final String c = call.getText().toString();
                 final String n = name.getText().toString();
                 if (!c.equals("") || !n.equals("")) {
-
-
-                    Toast.makeText(SearchActivity.this, "Searching for contact: "+n+" "+c, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SearchActivity.this, "Searching for contact: " + n + " " + c, Toast.LENGTH_SHORT).show();
                     resultList(c, n);
 
                 } else {
@@ -77,10 +77,85 @@ public class SearchActivity extends BaseMenu {
             }
 
         });
+        submit.setOnClickListener(new OnClickListener() {
 
+            @Override
+            public void onClick(View view) {
 
+                final String d = currentDate;
+                final String c = call.getText().toString();
 
+                if (!c.equals("")) {
+                    if (name.getText().toString().equals("")) {
+                        name.setText("none");
+                    }
+                    if (freq.getText().toString().equals("")) {
+                        freq.setText("none");
+                    }
+                    final String n = name.getText().toString();
+                    final String f = freq.getText().toString();
+                    if (editflag == false) {
+                        dbManager.insert(d, c, n, f);
+                    } else {
+                        dbManager.update(long_id, d, c, n, f);
+                        editflag = false;
+                    }
+                    Toast.makeText(SearchActivity.this, "Saving Contact", Toast.LENGTH_SHORT).show();
+                    resultList(c, n);
+                    resetSearch();
+                } else {
+                    Toast.makeText(SearchActivity.this, "Nothing entered.", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+
+        });
     }
+
+        public void optionDialogue(long pass_id) {
+            final Long rec_id = pass_id;
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Tap an option");
+            String[] options = {"Edit", "Delete", "Cancel"};
+            builder.setItems(options, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog1, int which) {
+                switch(which) {
+                    case 0:
+                        editflag = true;
+                        freq.setVisibility(View.VISIBLE);
+                        Cursor id_cursor = dbManager.selectById(rec_id);
+                        int call_column = id_cursor.getColumnIndex(DatabaseHelper.CALL);
+                        String selected_call = id_cursor.getString(call_column);
+                        call.setText(selected_call);
+                        int name_column = id_cursor.getColumnIndex(DatabaseHelper.NAME);
+                        String selected_name = id_cursor.getString(name_column);
+                        name.setText(selected_name);
+                        int freq_column = id_cursor.getColumnIndex(DatabaseHelper.FREQ);
+                        String selected_freq = id_cursor.getString(freq_column);
+                        freq.setText(selected_freq);
+                        submit.setVisibility(View.VISIBLE);
+                        search.setVisibility(View.GONE);
+
+                        break;
+                    case 1:
+
+                        confirmDelete(rec_id);
+
+                        break;
+                    case 2:
+                        dialog1.cancel();
+                        break;
+                    default:
+                        return;
+                }
+            }
+        });
+        AlertDialog alert = builder.create();
+        //Setting the title manually
+        alert.show();
+    }
+
       public void confirmDelete(long pass_id) {
         final long del_id = pass_id;
         builder = new AlertDialog.Builder(this);
@@ -130,15 +205,22 @@ public class SearchActivity extends BaseMenu {
             public void onItemClick(AdapterView<?> parent, View view, int position1, long id) {
                 int Col1 = cursor.getColumnIndex(DatabaseHelper._ID);
                 long_id = cursor.getLong(Col1);
-                confirmDelete(long_id);
+                optionDialogue(long_id);
+                //confirmDelete(long_id);
             }
         });
         //dbManager.close();
-        call.setText("");
-        call.setHint("Call");
-        name.setText("");
-        name.setHint("Name");
+       resetSearch();
 
     }
-
+public void resetSearch() {
+    submit.setVisibility(View.GONE);
+    search.setVisibility(View.VISIBLE);
+    call.setText("");
+    call.setHint("Call");
+    name.setText("");
+    name.setHint("Name");
+    freq.setText("");
+    freq.setVisibility(View.GONE);
+}
 }

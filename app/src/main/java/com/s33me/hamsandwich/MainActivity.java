@@ -41,10 +41,10 @@ public class MainActivity extends BaseMenu {
 	// in call_record.xml
 	final int[] to = new int[] { R.id.rec_id, R.id.rec_date, R.id.rec_call, R.id.rec_name, R.id.rec_freq };
 	private Context ctx;
-	AlertDialog.Builder builder;
+	//AlertDialog.Builder builder;
 	private final static int REQUEST_PERMISSIONS = 20;
 	private ImageView bolt;
-	
+	private boolean editflag = false;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -65,7 +65,7 @@ public class MainActivity extends BaseMenu {
 		dbManager = new DBManager(this);
 		dbManager.open();
 		cursor = dbManager.fetch();
-
+		Toast.makeText(MainActivity.this, cursor.getCount() + " contacts", Toast.LENGTH_LONG).show();
 		listView = findViewById(R.id.list_view);
 		listView.setEmptyView(findViewById(R.id.empty));
 
@@ -79,7 +79,8 @@ public class MainActivity extends BaseMenu {
 					public void onItemClick(AdapterView<?> parent, View view, int position1, long id) {
 						int Col1 = cursor.getColumnIndex(DatabaseHelper._ID);
 						long_id = cursor.getLong(Col1);
-						confirmDelete(long_id);
+						//confirmDelete(long_id);
+						optionDialogue(long_id);
 					}
 				});
 		//dbManager.close();
@@ -93,14 +94,19 @@ public class MainActivity extends BaseMenu {
 
 						if (!c.equals("")) {
 							if (name.getText().toString().equals("")) {
-								name.setText("?");
+								name.setText("none");
 							}
 							if (freq.getText().toString().equals("")) {
-								freq.setText("?");
+								freq.setText("none");
 							}
 							final String n = name.getText().toString();
 							final String f = freq.getText().toString();
-							dbManager.insert(d, c, n, f);
+							if (editflag == false) {
+								dbManager.insert(d, c, n, f);
+							} else {
+								dbManager.update(long_id, d, c, n, f);
+								editflag = false;
+							}
 							Toast.makeText(MainActivity.this, "Saving Contact", Toast.LENGTH_SHORT).show();
 							refreshList();
 							animateBolt();
@@ -205,11 +211,50 @@ public class MainActivity extends BaseMenu {
 
 
     }
+    public void optionDialogue(long pass_id) {
+		final Long rec_id = pass_id;
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle("Tap an option");
+		String[] options = {"Edit", "Delete", "Cancel"};
+		builder.setItems(options, new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog1, int which) {
+				switch(which) {
+					case 0:
+							editflag = true;
+							Cursor id_cursor = dbManager.selectById(rec_id);
+							int call_column = id_cursor.getColumnIndex(DatabaseHelper.CALL);
+							String selected_call = id_cursor.getString(call_column);
+							call.setText(selected_call);
+							int name_column = id_cursor.getColumnIndex(DatabaseHelper.NAME);
+							String selected_name = id_cursor.getString(name_column);
+							name.setText(selected_name);
+							int freq_column = id_cursor.getColumnIndex(DatabaseHelper.FREQ);
+							String selected_freq = id_cursor.getString(freq_column);
+							freq.setText(selected_freq);
 
+					break;
+					case 1:
+
+						confirmDelete(rec_id);
+
+					break;
+					case 2:
+						dialog1.cancel();
+					break;
+					default:
+						return;
+				}
+			}
+		});
+		AlertDialog alert = builder.create();
+		//Setting the title manually
+		alert.show();
+	}
     public void confirmDelete(long pass_id) {
     	final long del_id = pass_id;
-		builder = new AlertDialog.Builder(this);
-		builder.setMessage("Do you want to delete this record ?")
+		AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+		builder1.setMessage("Do you want to delete this record ?")
 				.setCancelable(false)
 				.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int id) {
@@ -228,7 +273,7 @@ public class MainActivity extends BaseMenu {
 					}
 				});
 		//Creating dialog box
-		AlertDialog alert = builder.create();
+		AlertDialog alert = builder1.create();
 		//Setting the title manually
 		alert.setTitle("Delete Record");
 		alert.show();
@@ -246,15 +291,16 @@ public class MainActivity extends BaseMenu {
 
 		adapter = new SimpleCursorAdapter(this, R.layout.call_record, cursor, from, to);
 		adapter.notifyDataSetChanged();
-
 		listView.setAdapter(adapter);
+		Toast.makeText(MainActivity.this, cursor.getCount() + " contacts", Toast.LENGTH_LONG).show();
 		// Add delete option when clicking on list view
 		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position1, long id) {
 				int Col1 = cursor.getColumnIndex(DatabaseHelper._ID);
 				long_id = cursor.getLong(Col1);
-				confirmDelete(long_id);
+				//confirmDelete(long_id);
+				optionDialogue(long_id);
 			}
 		});
 		//dbManager.close();

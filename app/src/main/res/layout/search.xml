@@ -54,12 +54,28 @@
             android:text=""
             android:hint="Name" />
 
+        <EditText
+            android:id="@+id/freq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="Freq"
+            android:visibility="gone"/>
+
         <Button
             android:id="@+id/searchBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@layout/button_border"
-            android:text="Search" />
+            android:background="@drawable/ic_baseline_search_24"
+            android:visibility="visible"
+             />
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_save_24"
+            android:visibility="gone"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -89,7 +105,7 @@
         android:layout_height="wrap_content"
         android:background="#ffffff"
         android:gravity="center_horizontal"
-        android:text="Tap a record to delete"
+        android:text="Tap a record to edit or delete"
         android:textColor="#00cccc"
         android:textSize="12sp" />
     <LinearLayout

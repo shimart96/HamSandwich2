@@ -45,8 +45,8 @@
 			android:id="@+id/recordBtn"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:background="@layout/button_border"
-			android:text="Record" />
+			android:background="@drawable/ic_baseline_record_voice_over_24"
+			 />
 
 		<EditText
 			android:id="@+id/call"
@@ -70,8 +70,8 @@
 			android:id="@+id/submitBtn"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:background="@layout/button_border"
-			android:text="Save" />
+			android:background="@drawable/ic_baseline_save_24"
+			 />
 	</LinearLayout>
 
 	<LinearLayout
@@ -108,7 +108,7 @@
 			android:layout_height="wrap_content"
 			android:background="#ffffff"
 			android:gravity="center_horizontal"
-			android:text="Tap a record to delete"
+			android:text="Tap a record to edit or delete"
 			android:textColor="#00cccc"
 			android:textSize="12sp" />
 	<LinearLayout

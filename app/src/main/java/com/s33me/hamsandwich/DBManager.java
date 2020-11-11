@@ -57,6 +57,17 @@ public class DBManager {
         }
         return cursor;
     }
+    public Cursor selectById(Long long_id) {
+        Long idArg = long_id;
+        String selectQuery = "SELECT  _id, date, call, name, freq  FROM " + DatabaseHelper.TABLE_NAME + " WHERE _id = " +idArg;
+        String[] columns = new String[] { DatabaseHelper._ID, DatabaseHelper.DATE, DatabaseHelper.CALL, DatabaseHelper.NAME, DatabaseHelper.FREQ};
+        Cursor cursor = database.rawQuery(selectQuery, null);
+        //startManagingCursor(cursor);
+        if (cursor != null) {
+            cursor.moveToFirst();
+        }
+        return cursor;
+    }
     public Cursor fetch() {
         String[] columns = new String[] { DatabaseHelper._ID, DatabaseHelper.DATE, DatabaseHelper.CALL, DatabaseHelper.NAME, DatabaseHelper.FREQ};
         Cursor cursor = database.query(DatabaseHelper.TABLE_NAME, columns, null, null, null, null, null);

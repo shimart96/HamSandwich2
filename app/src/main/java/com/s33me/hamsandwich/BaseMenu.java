@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -11,11 +12,15 @@ public class BaseMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        // TO do: add menu options on the fly
+        //menu.add(0, R.id.item1, 0, "Search").setIcon(R.drawable.ic_baseline_search_24);
+
         return true;
     }
     @Override
@@ -25,7 +30,6 @@ public class BaseMenu extends AppCompatActivity {
             case R.id.item1:
                 Intent intent = new Intent(this, SearchActivity.class);
                 startActivity(intent);
-
                 return true;
             case R.id.item4:
                 Intent intent4 = new Intent(this, ExportCsv.class);
@@ -36,7 +40,7 @@ public class BaseMenu extends AppCompatActivity {
                 startActivity(intent2);
                 return true;
             case R.id.item3:
-                finishAndRemoveTask();
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

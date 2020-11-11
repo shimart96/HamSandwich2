@@ -1,16 +1,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.s33me.hamsandwich.MainActivity"
-    android:layout_height="wrap_content" android:layout_width="wrap_content">
+    tools:context="com.s33me.hamsandwich.BaseMenu"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+    <item
+        android:id="@+id/action_more"
+        android:title=""
+        >
+      <item android:id="@+id/item1"
+          android:icon="@drawable/ic_action_search"
+          app:showAsAction="always"
+          android:title="Search"
+          />
 
-    <item  android:id="@+id/item1"
-        android:title="Search"/>
-    <item  android:id="@+id/item4"
-        android:title="Export"/>
-    <item  android:id="@+id/item2"
+    <item android:id="@+id/item4"
+        android:icon="@drawable/ic_action_mail"
+        app:showAsAction="always"
+        android:title="Export"
+        />
+    <item android:id="@+id/item2"
+        android:icon="@drawable/ic_action_home"
+        app:showAsAction="ifRoom"
         android:title="Home"/>
-    <item  android:id="@+id/item3"
+    <item android:id="@+id/item3"
+        android:icon="@drawable/ic_action_exit"
+        app:showAsAction="ifRoom"
         android:title="Exit"
-        app:showAsAction="withText" />
+         />
+    </item>
 </menu>
