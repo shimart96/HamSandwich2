@@ -174,8 +174,17 @@ public class MainActivity extends BaseMenu {
 						.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
 
 				//displaying the first match
-				if (matches != null)
-					call.setText(matches.get(0));
+				if (matches != null) {
+					if (call.hasFocus()) {
+						call.setText(matches.get(0));
+					}
+					if (name.hasFocus()) {
+						name.setText(matches.get(0));
+					}
+					if (freq.hasFocus()) {
+						freq.setText(matches.get(0));
+					}
+				}
 			}
 
 			@Override
@@ -195,14 +204,32 @@ public class MainActivity extends BaseMenu {
 					case MotionEvent.ACTION_UP:
 						//when the user removed the finger
 						mSpeechRecognizer.stopListening();
-						call.setHint("Call");
+						if (call.hasFocus()) {
+							call.setHint("Call");
+						}
+						if (name.hasFocus()) {
+							call.setHint("name");
+						}
+						if (freq.hasFocus()) {
+							call.setHint("freq");
+						}
 						break;
 
 					case MotionEvent.ACTION_DOWN:
 						//finger is on the button
 						mSpeechRecognizer.startListening(mSpeechRecognizerIntent);
-						call.setText("");
-						call.setHint("Listening...");
+						if (call.hasFocus()) {
+							call.setText("");
+							call.setHint("Listening...");
+						}
+						if (name.hasFocus()) {
+							name.setText("");
+							name.setHint("Listening...");
+						}
+						if (freq.hasFocus()) {
+							freq.setText("");
+							freq.setHint("Listening...");
+						}
 						break;
 				}
 				return false;
